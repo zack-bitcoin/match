@@ -7,9 +7,9 @@ I used the SCM implementation of scheme to write this.
 
 Here is an example of how pattern matching looks with this tool:
 
-``
-(runget `(((a b (c d)) '(1 2 (3 4)))
+
+    (runget `(((a b (c d)) '(1 2 (3 4)))
 	  (e (+ a b c d)))
 	'e)))
 
-> 10 ``
+    > 10 
